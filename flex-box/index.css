@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+.block {
+  background-color: gray;
+  padding: 10px;
+  height: 400px;
+  display: flex;
+  /* выравнивание по главной оси */
+  justify-content: space-around;
+  /* выравнивание по втор оси */
+  align-items: center;
+}
+.item {
+  border: 1px solid;
+  background-color: tomato;
+  padding: 5px;
+}
